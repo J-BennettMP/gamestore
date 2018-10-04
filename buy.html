@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comprar</title>
+</head>
+<img src="logo.png" alt="CoffeeStore" class="logo" height=130 width="490" onclick="window.open('index.html', '_parent');" />
+<style>
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf));
+  background:-moz-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+  background:-webkit-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+  background:-o-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+  background:-ms-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+  background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf',GradientType=0);
+  background-color:#63b8ee;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #3866a3;
+  display:inline-block;
+  cursor:pointer;
+  color:#14396a;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  padding:12px 34px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #7cacde;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee));
+  background:-moz-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+  background:-webkit-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+  background:-o-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+  background:-ms-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+  background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee',GradientType=0);
+  background-color:#468ccf;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.plataforma {
+   
+   height: 34px;
+   width: 260px;
+}
+
+.plataforma select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 368px;
+}
+
+input[type=holdon]:focus {
+    width: 10%;
+}
+input[type=holdon] {
+    width: 140px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 20%;
+}
+input[type=text] {
+    width: 140px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+button:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+button {
+
+	padding: 10px 35px;  
+	overflow:hidden;
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+}
+.logo { transition: all .1s ease-in-out; }
+.logo:hover { transform: scale(1.1); }
+.game{ transition: all .2s ease-in-out; }
+.game:hover { transform: scale(1.1); }
+body {
+    background-image: url("alanw.jpg");
+}
+td
+{
+    padding:0 15px 0 15px;
+
+</style>
+
+
+<body>
+	<br>
+	<br>
+	<font color="White" size="4" face="Arial">Cartão de Crédito</font>
+
+	<br>
+	<br>
+	<form>
+  <input type="text" name="search" placeholder="Clique aqui">
+</form>
+<img src="cc.png" width="200" height="30">
+<hr>
+<font color="White" size="4" face="Arial">CPF</font>
+	<br>
+	<br>
+	<form>
+  <input type="holdon" name="search" placeholder="Clique aqui">
+</form>
+<hr>
+<font color="White" size="4" face="Arial">Data desejada para entrega</font>
+	<br>
+	<br>
+	<form>
+  <input type="holdon" name="search" placeholder="DD/MM/YYYY">
+</form>
+<hr>
+<font color="White" size="4" face="Arial">Nome completo do Cliente</font>
+	<br>
+	<br>
+	<form>
+  <input type="text" name="search" placeholder="Clique aqui">
+</form>
+<hr>
+<font color="White" size="4" face="Arial">CEP</font>
+  <br>
+  <br>
+  <form>
+  <input type="text" name="search" placeholder="Clique aqui">
+</form>
+<hr>
+<font color="White" size="4" face="Arial">Email (Para caso a cópia seja digital)</font>
+  <br>
+  <br>
+  <form>
+  <input type="text" name="search" placeholder="Clique aqui">
+</form>
+<hr>
+<font color="White" size="4" face="Arial">Plataforma</font>
+<br>
+<br>
+<div class="plataforma">
+<select>
+  <option value="none" selected>Cheque se está disponível para sua plataforma</option>
+  <option value="pc">PC</option>
+  <option value="ps4">PS4</option>
+  <option value="xbox one">Xbox One</option>
+</select>
+</div>
+<hr>
+<br>
+<a href="#" onclick="window.open('pronto.html', '_parent');" class="myButton">Comprar!</a>
+
+
+
+</body>
+</html>
